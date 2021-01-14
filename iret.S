@@ -14,12 +14,12 @@ _iret_func:
 	iretq
 
 
-.global _get_cs:
+.globl _get_cs
 _get_cs:
 	mov %cs, %rax
 	retq
 
-.global _get_ss:
+.globl _get_ss
 _get_ss:
 	mov %ss, %rax
 	retq	
