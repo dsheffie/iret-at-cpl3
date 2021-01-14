@@ -2,7 +2,6 @@
 #include <stdint.h>
 
 void iret_func(void);
-
 uint64_t get_cs(void);
 uint64_t get_ss(void);
 
